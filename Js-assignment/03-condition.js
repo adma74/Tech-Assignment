@@ -54,6 +54,5 @@ switch (unit) {
        break;
     default: 
        console.log("Maaf anda salah input")
-       break;
    }
 }
