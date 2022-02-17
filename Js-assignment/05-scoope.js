@@ -6,13 +6,13 @@
 /// - buatlah implementasi sederhana dari tiap-tiap variable scope yang dimiliki oleh Javascript
 
 /// WRITE YOUR ANALYSIS HERE
-1- Scope memiliki 2 variable yaitu Global Scope dan Local Scope
-2- Global Scope adalah variable yang ada di paling luar yang bisa di akses oleh local scopenya,
-   sedangkan local scope adalah variable yang ada di bagian dalam global scope yang bsa mengakses
-   global scope dan local scope itu sendiri
-3- function (){     //<- Global Scope
-    console.log()   // <- Local Scope
-}
+// 1- Scope memiliki 2 variable yaitu Global Scope dan Local Scope
+// 2- Global Scope adalah variable yang ada di paling luar yang bisa di akses oleh local scopenya,
+//    sedangkan local scope adalah variable yang ada di bagian dalam global scope yang bsa mengakses
+//    global scope dan local scope itu sendiri
+// 3- function (){     //<- Global Scope
+//     console.log()   // <- Local Scope
+// }
 
 /// Soal - 02
 /// Kamu diminta untuk melakukan analisa terhadap baris kode dibawah ini
