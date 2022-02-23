@@ -37,12 +37,16 @@ const arr = [
 
 function searchInArray(arr, num) {
   const newArr = arr.flat(1)
-  if(arr = newArr){
-  return newArr.indexOf(num)
-  }else{
-   return null 
+ // console.log(newArr)
+  const findIndex = newArr.indexOf(num)
+ // console.log(findIndex)
+  if (findIndex == -1){
+    return null
+  } else {
+   return findIndex
   }
 }
+
 
 console.log(searchInArray(arr, 3));
 console.log(searchInArray(arr, 2));
